@@ -1,0 +1,21 @@
+.footer{
+  padding: 20px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.textfooter{
+  width: 700px;
+  cursor: pointer;
+  color: rgb(255, 255, 255) !important;
+}
+
+.btnfooter{
+  height: 70%;
+}

@@ -1,0 +1,27 @@
+.homepage{
+  min-height: 750px;
+  padding-bottom: 100px;
+}
+
+.mainul{
+  display: flex;
+  gap: 30px;
+  background: #6f6f6fd8;
+  padding: 30px;
+  flex-direction: column;
+  border-radius: 15px;
+  li{
+    width: 100%;
+    padding: 5px;
+  }
+  .rigth{
+    text-align: right;
+  }
+}
+
+.prods{
+  background: #323232d5;
+  width: 400px;
+  padding: 18px;
+  border-radius: 10px;
+}
