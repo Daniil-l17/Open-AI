@@ -10,7 +10,7 @@ export const Home = () => {
     const { message, addMessage, addShat, shat } = useStore(state => state);
 
     const obj: Ishat = {
-        model: 'openchat-3.5',
+        model: 'command-r-plus',
         messages: [{ role: 'user', content: message }],
         temperature: 0.1,
         top_p: 0.95,
